@@ -9,6 +9,8 @@
 <pre>
 <?php
 
+/* Simply setup this file for the forum script you are using. */
+
 /* IPB Config */
 #/*
 require "../conf_global.php";

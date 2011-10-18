@@ -2,18 +2,23 @@
 IndexIgnore *
 Options All -Indexes
 
+# Protect the .htaccess file
 <Files ~ "^\.ht">
 Order allow,deny
 Deny from all
 Satisfy All
 </Files>
 
+# Protect the log file's from being viewed.
+# But allow scripts access.
 <Files "ForumConnect.log">
 Order allow,deny
 Deny from all
 Satisfy All
 </Files>
 
+# Protect the log file's from being viewed.
+# But allow scripts access.
 <Files "PDOErrors.txt">
 Order allow,deny
 Deny from all

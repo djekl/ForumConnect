@@ -1,0 +1,22 @@
+# DISABLE DIRECTORY BROWSING
+IndexIgnore *
+Options All -Indexes
+
+<Files ~ "^\.ht">
+Order allow,deny
+Deny from all
+Satisfy All
+</Files>
+
+<Files "ForumConnect.log">
+Order allow,deny
+Deny from all
+Satisfy All
+</Files>
+
+<Files "PDOErrors.txt">
+Order allow,deny
+Deny from all
+Satisfy All
+</Files>
+
